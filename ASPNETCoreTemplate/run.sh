@@ -1,3 +1,3 @@
 dotnet build
 dotnet run
-open -p 80
+echo TECHIO> open -p 8080 /

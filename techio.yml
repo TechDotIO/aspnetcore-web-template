@@ -1,8 +1,11 @@
-title : Basic Template
-
-# Table of content
+title : ASP .NET Core Web Template
 plan:
-  - title: Welcome # Set the page title (only displayed if your contribution has several pages)
-    statement: markdowns/welcome.md # Set the file path to the page content
-#  - title: Another Page
-#    statement: markdowns/another-page.md
+  - title: ASP .NET Core on Tech.io
+    statement: markdowns/welcome.md
+projects:
+  first-project:
+    root: /ASPNETCoreTemplate
+    runner:
+      name: microsoft/aspnetcore-build
+      version: latest
+      buildCommand: dotnet restore

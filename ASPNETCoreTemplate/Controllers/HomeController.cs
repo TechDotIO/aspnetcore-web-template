@@ -19,14 +19,6 @@ namespace ASPNETCoreTemplate.Controllers
 
             return View();
         }
-
-        public IActionResult Contact()
-        {
-            ViewData["Message"] = "community@tech.io";
-
-            return View();
-        }
-
         public IActionResult Error()
         {
             return View();

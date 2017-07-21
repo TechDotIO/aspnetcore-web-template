@@ -1,3 +1,3 @@
 dotnet build
 dotnet run
-open -p 8080
+open -p 5000

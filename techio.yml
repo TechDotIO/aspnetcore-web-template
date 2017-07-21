@@ -5,7 +5,8 @@ plan:
 projects:
   first-project:
     root: /ASPNETCoreTemplate
+    buildCommand: dotnet restore
     runner:
       name: microsoft/aspnetcore-build
       version: latest
-      buildCommand: dotnet restore
+      

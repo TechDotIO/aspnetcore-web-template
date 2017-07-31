@@ -16,7 +16,6 @@ namespace ASPNETCoreTemplate.Controllers
         public IActionResult About()
         {
             ViewData["Message"] = "Tech.io ASP .NET Core Web Template";
-            //set ViewData["Message"] to null 
             return View();
         }
         public IActionResult Error()

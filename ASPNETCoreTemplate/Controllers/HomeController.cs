@@ -15,7 +15,7 @@ namespace ASPNETCoreTemplate.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Feel free to change this text";
+            ViewData["Message"] = "Change this text";
             return View();
         }
         public IActionResult Error()

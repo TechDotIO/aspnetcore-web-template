@@ -7,7 +7,7 @@ The source code is on [GitHub](https://github.com/sidsharma27/techio-aspnetcorew
 
 # Hands-on Demo
 
-@[Click to run the .NET Core Web app.]({"command": "dotnet run"})
+@[Click to run the .NET Core Web app.]({"stubs": ["Controllers/HomeController.cs"], "command": "dotnet run"})
 
 Check out the markdown file [`welcome.md`](https://github.com/sidsharma27/techio-aspnetcorewebtemplate/blob/master/markdowns/welcome.md) to see how this exercise is injected into the template.
 

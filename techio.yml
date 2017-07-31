@@ -1,7 +1,12 @@
-title : ASP .NET Core Web Template
+title : ASP .NET Core Web template
 plan:
-  - title: ASP .NET Core on Tech.io
-    statement: markdowns/welcome.md
+  - title: ASP .NET Core on Tech.io # Set the page title (only displayed if your contribution has several pages)
+    statement: markdowns/welcome.md # Set the file path to the page content
+#  - title: Another Page
+#    statement: markdowns/another-page.md
+
+
+# Settings for your programming projects and the associated Docker images
 projects:
   first-project:
     root: /ASPNETCoreTemplate
